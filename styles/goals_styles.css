@@ -1,0 +1,108 @@
+h2, h3{
+	text-shadow: 5px 5px 5px #45A29E;
+}
+
+section{
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.3);
+	width: 90%;
+	margin: auto;
+}
+
+section { 
+	margin-top: 40px;
+}
+
+section .artifact { 
+	background-color: rgba(180,190,207,0.9); 
+	border: 3px solid rgb (162, 112, 41);
+
+	-moz-border-radius : 3Opx; 
+	-webkit-border-radius : 3Opx; 
+	border-radius: 3Opx;
+
+	margin-bottom: 2Opx;
+}
+
+section .artifact h2{
+	margin: 0px 0px 15px 0px; 
+	font-weight: normal;
+	text-align: center; 
+	color: white; 
+	background-color: rgb (162, 112, 41);
+	-moz-border-radius-topleft: 30px; 
+	-webkit-border-top-left-radius: 30px; 
+	border-top-left-radius: 30px;
+	-moz-border-radius-topright: 30px; 
+	-webkit-border-top-right-radius: 30px;
+	border-top-right-radius: 30px;
+	font-size: 1.2em; 
+	letter-spacing: 5px; 
+	line-height : 2 em;
+} 
+
+section.right { 
+	width: 85%; 
+	float: left; 
+	margin-left: 5%;
+}
+
+.artifact{
+	width: 50%;
+	margin-right: 5%;
+	margin-top: 1%;
+	display: block;
+	float: left;
+}
+
+.reflection{
+	width: 45%;	
+	text-align: left;
+	display: block;
+	float: left;
+}
+
+object { 
+	background-color: white; 
+	display: block; 
+	margin: 5px auto; 
+	text-align: center; 
+	width: 95%; 
+	min-height : 560px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .artifact {
+    width:80%;
+  }
+  .reflection {
+    width:100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .artifact, .reflection {
+    width:100%;
+  }

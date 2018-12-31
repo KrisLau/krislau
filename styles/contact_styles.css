@@ -1,0 +1,95 @@
+h2{	
+	text-shadow: 5px 5px 5px #45A29E;
+}
+
+article{	
+	width: 40%;
+	display: block;
+	float:left;	
+}
+
+aside{
+	width: 10%;
+	display: block;
+	float:left;
+	text-align: center;
+	margin-top: 80px;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	width: 60%;
+	margin: 20px 0px 0px 0px;
+}
+
+#fb{
+	margin-top: 10px;
+}
+
+#mail{
+	margin-left: 15px;
+}
+
+.mySlides {
+	border-radius: 5em;
+	border: 5px solid #1E4846;
+     box-shadow: 
+       0 0 0 5px #45A29E, 
+       0 0 0 10px #66FCF1,
+       0 0 0 15px #1E4846
+}
+
+/**************************** SLIDE STYLES ***************************/
+article{	
+	width: 70%;
+}
+
+.mySlides {
+	display:none;
+}
+
+.slideshow{
+	margin: 80px 0px 0px 300px;
+	width: 60%;
+}
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  section {
+    width:80%;
+	  position: relative;
+	  left: -15%;
+  }
+  
+  aside {
+    width:100%;
+  }
+  
+  img{
+	 width:15%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  section, aside {
+    width:100%;
+  }
+  
+  img{
+	 width:15%;
+  }
+  
+  #mail{
+	  margin-left: 0px;
+  }
+  
+  section{
+	  position: relative;
+	  left: -45%;
+  }
+}
