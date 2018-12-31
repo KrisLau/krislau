@@ -42,12 +42,14 @@
 		<section>
 			<article>
 				<div class="slideshow" style="max-width:500px">
-				  <img class="mySlides" src="http://bit.ly/2koWZgH" alt="Elephant riding in Thailand" style="width:100%"/>
-				  <img class="mySlides" src="http://bit.ly/2AvRcNw" alt="Selfie with Jose and Sam" style="width:100%"/>
-				  <img class="mySlides" src="http://bit.ly/2ANdRlu" alt="MCLO's Cultural Extravanganza" style="width:100%"/>
-				  <img class="mySlides" src="http://bit.ly/2iXK0SB" alt="WSU Concert Selfie" style="width:100%"/>
-				  <img class="mySlides" src="http://bit.ly/2nSnTyR" alt="NU Music Dept Fall Concert" style="width:100%"/>
-				  <img class="mySlides" src="http://bit.ly/2AODP85" alt="Newman Women's Golf team photo " style="width:100%"/>
+					<?php
+					    $files = scandir('path/to/img/directory/');
+					    foreach($files as $file) {
+						if($file !== "." && $file !== "..") {
+						    echo "<img class='mySlides' src='$file' style='width:100%'/>";
+						}
+					    }
+					?>
 				</div>
 			</article>		
 		</section>
