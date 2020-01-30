@@ -50,6 +50,7 @@ article{
 
 .mySlides {
 	display:none;
+	min-height: 450px;
 }
 
 .slideshow{
@@ -74,14 +75,19 @@ article{
 	 width:15%;
   }
 }
+
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   section, aside {
-    width:100%;
+    width: 100%;
   }
   
   img{
 	 width:15%;
+  }
+
+  .mySlides {
+  	min-height: 200px;
   }
   
   #mail{
@@ -91,5 +97,16 @@ article{
   section{
 	  position: relative;
 	  left: -45%;
+  }
+
+  aside{
+    margin-top: 40px;
+  }
+
+  aside > p{
+    margin: 0;
+  }
+
+  aside > a {
   }
 }

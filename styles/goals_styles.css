@@ -10,41 +10,41 @@ section{
 	margin: auto;
 }
 
-section { 
+section {
 	margin-top: 40px;
 }
 
-section .artifact { 
-	background-color: rgba(180,190,207,0.9); 
+section .artifact {
+	background-color: rgba(180,190,207,0.9);
 	border: 3px solid rgb (162, 112, 41);
 
-	-moz-border-radius : 3Opx; 
-	-webkit-border-radius : 3Opx; 
+	-moz-border-radius : 3Opx;
+	-webkit-border-radius : 3Opx;
 	border-radius: 3Opx;
 
 	margin-bottom: 2Opx;
 }
 
 section .artifact h2{
-	margin: 0px 0px 15px 0px; 
+	margin: 0px 0px 15px 0px;
 	font-weight: normal;
-	text-align: center; 
-	color: white; 
+	text-align: center;
+	color: white;
 	background-color: rgb (162, 112, 41);
-	-moz-border-radius-topleft: 30px; 
-	-webkit-border-top-left-radius: 30px; 
+	-moz-border-radius-topleft: 30px;
+	-webkit-border-top-left-radius: 30px;
 	border-top-left-radius: 30px;
-	-moz-border-radius-topright: 30px; 
+	-moz-border-radius-topright: 30px;
 	-webkit-border-top-right-radius: 30px;
 	border-top-right-radius: 30px;
-	font-size: 1.2em; 
-	letter-spacing: 5px; 
+	font-size: 1.2em;
+	letter-spacing: 5px;
 	line-height : 2 em;
-} 
+}
 
-section.right { 
-	width: 85%; 
-	float: left; 
+section.right {
+	width: 85%;
+	float: left;
 	margin-left: 5%;
 }
 
@@ -57,19 +57,23 @@ section.right {
 }
 
 .reflection{
-	width: 45%;	
+	width: 45%;
 	text-align: left;
 	display: block;
 	float: left;
 }
 
-object { 
-	background-color: white; 
-	display: block; 
-	margin: 5px auto; 
+object {
+	background-color: white;
+	display: block;
+	margin: 5px auto;
 	text-align: center; 
 	width: 95%; 
 	min-height : 560px;
+}
+
+.presentation{
+    min-height: 400px;
 }
 
 #myBtn {
@@ -106,3 +110,7 @@ object {
   .artifact, .reflection {
     width:100%;
   }
+  .presentation{
+      min-height: 200px;
+  }
+}

@@ -4,7 +4,7 @@ MIS- PR C-Loan Amortization Schedule
 
 goal 2:
 Prog2- P5
-Prog2- P6
+Prog2- MangaSuperStore
 
 goal 3:
 Prog2- BankDriver
@@ -19,8 +19,9 @@ Prog1- Handbag
 
 goal 6:
 Prin. of MGMT- Nintendo Presentation
-Fin. Acct- FIFO, LIFO
+Fin. Acct- FIFO, LIFO / Business Comm - Gastrodiplomacy
 
 goal 7:
+Connect pass IC Newman
 Fin. Acct- payroll
 Fin. Acct- Depreciation

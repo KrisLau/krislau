@@ -4,6 +4,7 @@
 		<link href="../styles/portfolio_styles.css" rel="stylesheet"/>
 		<link href="../styles/goals_styles.css" rel="stylesheet"/>
 		<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Raleway" rel="stylesheet">
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
 	</head>
 	
 	<body>
@@ -18,13 +19,13 @@
 						<a href="about.html">About</a>
 					</li>
 					
-					<li class="dropdown">
+					<li class="dropdown active">
 						<a class="dropbtn" onclick="myFunction()">Goals</a>
 						
 						<div id="content" class="dropdown-content">
 							<a href="goal1.html">Goal 1</a>
 							<a href="goal2.html">Goal 2</a>
-							<a href="goal3.html">Goal 3</a>
+							<a href="goal3.html" class="active">Goal 3</a>
 							<a href="goal4.html">Goal 4</a>
 							<a href="goal5.html">Goal 5</a>
 							<a href="goal6.html">Goal 6</a>
@@ -45,38 +46,59 @@
 		
 			<article class="artifact">
 				<h2>Artifact 1</h2>
-				<object data=""></object>
+				<video width="90%" controls>
+					<source src="../files/goal3/CreditCard.mkv" type="video/mp4">
+				</video>
+				<a href="../files/goal3/CreditCard.zip" download title="CreditCard.zip">Download the project</a>
 			</article>
 			
 			<article class="reflection">
 				<h3>Reflection</h3>
 				<ul>
-					<li>Title: </li>
-					<li>Date: </li>
-					<li>Course: </li>
-					<li>Professor: </li>
-					<li>Description:</br>
-						</li>
-				</ul>				
+					<li>Title: Credit Card</li>
+					<li>Date: November 2016</li>
+					<li>Course: Intro to Programming</li>
+					<li>Professor: Sandra Hambrick</li>
+					<li>Description: A Windows Form application which allows you to create a credit card,
+						add payments and charge the card.</li>
+				</ul>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;I chose this project because the fact that the topic of this project is a credit card reminds
+					me that the data software engineers work with can be highly sensitive. This hits home even more
+					because all of my internships thus far have been in financial technology companies. One small
+					mistake could cost someone their life savings and ruin their life. Thus, I believe that this
+					application is a perfect fit for this goal as it helps one to develop an awareness of the ethics
+					involved in protecting financial transactions and just general financial integrity.</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;Another reason I chose this project is because even though this was a project from my
+					introductory programming class, it feels like it is a micro version of what could be a real-life
+					application and gave me a glimpse into what lay ahead. I learnt so many things through working on
+					this small project since it was one of the last projects of my first semester. It helped me to
+					gain confidence and build upon the skills I had learnt before such as working with scopes, events,
+					try/catch exceptions, and testing in general.</p>
 			</article>
-			
+		</section>
+
+		<section class="right">
 			<article class="artifact">
 				<h2>Artifact 2</h2>
-				<object data=""></object>
+				<iframe class="presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vQJvB2yFGZl1P5G-I0d3taxE68MaLv3cXHA6jEVLkueM3FmypKYicIJUjnYni9l-hcttlPssezuQDqH/embed?start=false&loop=true&delayms=60000"
+						frameborder="0" width="90%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+				<a href="https://docs.google.com/presentation/d/10ZKun94OuAtcegkQOmitdFqzkKWViyP90fAkG2p58LE/edit?usp=sharing">Download the project</a>
 			</article>
-			
+
 			<article class="reflection">
 				<h3>Reflection</h3>
 				<ul>
-					<li>Title: </li>
-					<li>Date: </li>
-					<li>Course: </li>
-					<li>Professor: </li>
-					<li>Description:</br>
-						</li>
-				</ul>				
+					<li>Title: The Ethics of Lyft</li>
+					<li>Date: November 2018</li>
+					<li>Course: Business Ethics</li>
+					<li>Professor: Brian Epperson</li>
+					<li>Description: A presentation </li>
+				</ul>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
 			</article>
-		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 		</section>
 		
 		

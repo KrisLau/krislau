@@ -4,6 +4,7 @@
 		<link href="../styles/portfolio_styles.css" rel="stylesheet"/>
 		<link href="../styles/goals_styles.css" rel="stylesheet"/>
 		<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Raleway" rel="stylesheet">
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
 	</head>
 	
 	<body>
@@ -17,13 +18,13 @@
 					<li>
 						<a href="about.html">About</a>
 					</li>
-					
-					<li class="dropdown">
+
+					<li class="dropdown active">
 						<a class="dropbtn" onclick="myFunction()">Goals</a>
 						
 						<div id="content" class="dropdown-content">
 							<a href="goal1.html">Goal 1</a>
-							<a href="goal2.html">Goal 2</a>
+							<a href="goal2.html" class="active">Goal 2</a>
 							<a href="goal3.html">Goal 3</a>
 							<a href="goal4.html">Goal 4</a>
 							<a href="goal5.html">Goal 5</a>
@@ -45,38 +46,78 @@
 		
 			<article class="artifact">
 				<h2>Artifact 1</h2>
-				<object data=""></object>
+				<video width="90%" controls muted>
+					<source src="../files/goal2/CustomerMaintenance.mkv" type="video/mp4">
+				</video>
+				<a href="../files/goal2/CustomerMaintenance.zip" download title="CustomerMaintenance.zip">Download the project</a>
 			</article>
 			
 			<article class="reflection">
 				<h3>Reflection</h3>
 				<ul>
-					<li>Title: </li>
-					<li>Date: </li>
-					<li>Course: </li>
-					<li>Professor: </li>
-					<li>Description:</br>
-						</li>
-				</ul>				
+					<li>Title: Customer Maintenance</li>
+					<li>Date: March 2018</li>
+					<li>Course: Programming 2</li>
+					<li>Professor: Windell Hambrick</li>
+					<li>Description: A Multiple-Document Interface (MDI) Windows Form application that allows the user
+						to add retail and wholesale customers. It also allows the user to see all added customers in a
+						list and delete anyone.</li>
+				</ul>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;I chose to display this project as was my first gander at Multiple-Document Interfaces (MDIs)
+					and I really enjoyed expanding my capabilities with Windows Forms. In this project, I learnt
+					valuable skills for Windows Forms such as how to create an instance of a new form, share data
+					between forms, and deal with problems that arise with MDI.</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;One of the problems that I didn’t anticipate when I had initially completed the project was the
+					null exception that would occur when a user closes the add customer dialog box. It should have been
+					an obvious thing but I only found the error as I was testing the form to add to this portfolio.
+					That made me reflect on my testing practices. It made me realize that I had to be 100% that I have
+					tested all the possible situations that a user might get into. This might seem obvious but I think
+					it is easily overlooked in the rush to complete a project.</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;This project also served as a great segue to my next artifact which built on the ability to
+					display multiple windows while adding onto it exponentially with the MVVM design pattern and the
+					integration of databases.</p>
 			</article>
-			
+		</section>
+
+		<section class="right">
 			<article class="artifact">
 				<h2>Artifact 2</h2>
-				<object data=""></object>
+				<video width="90%" controls>
+					<source src="../files/goal2/MangaSuperStore.mkv" type="video/mp4">
+				</video>
+				<a href="../files/goal2/MangaSuperStore.zip" download title="MangaSuperStore.zip">Download the project</a>
 			</article>
-			
+
 			<article class="reflection">
 				<h3>Reflection</h3>
 				<ul>
-					<li>Title: </li>
-					<li>Date: </li>
-					<li>Course: </li>
-					<li>Professor: </li>
-					<li>Description:</br>
-						</li>
-				</ul>				
+					<li>Title: Manga Super Store</li>
+					<li>Date: May 2018</li>
+					<li>Course: Advanced Programming Topics</li>
+					<li>Professor: Windell Hambrick</li>
+					<li>Description: A Windows Presentation Foundation (WPF) application that allows me to view all my
+						favorite manga(Japanese comics) in a list. I can also edit any information and delete any manga
+						in the details view. </li>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;This project was challenging to complete because I struggled to understand the
+						Model-View-ViewModel (MVVM) design pattern as it felt like there were a hundred moving parts to
+						grasp. To add to my confusion, this project also needed to be a Windows Presentation Foundation
+						(WPF) application instead of the Windows Forms that I was used to. Not only that but we also had
+						to integrate the application with our own database and at that point in time, I had never worked
+						with databases before. So, I was really proud when I actually managed to complete the project
+						with the look and functionality that I desired.</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;Through working on this project, I learnt a vaudeville of things. On the database side of
+						things, I learnt how to set up a database and write SQL queries to create, update, insert, and
+						delete databases and rows in them. In conjunction with that, I learnt how to utilize Microsoft
+						SQL Server Management Studio in order to create queries and view tables. On the application
+						side of things, I finally grasped the concept of MVVM and managed to get all the pieces to fit
+						together in my head. WPF also turned out to be not as daunting as I thought it would be.</p>
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;Ultimately, I think I found that I could pick up any skills I wanted to as long as I was
+						willing to persist. I chose this project because I think it suits this goal very well as I have
+						always thought about keeping a wishlist of manga so being able to make it on my own was a
+						really cool project!</p>
+				</ul>
 			</article>
-		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 		</section>
 		
 		
