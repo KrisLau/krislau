@@ -95,6 +95,12 @@ a:hover{
 .show {display:block;}
 
 
+@media only screen and (max-width:800px) {
+	nav li{
+	    padding: 0;
+	}
+}
+
 /* ============================================
 	Mobile Devices: 0 - 480 pixels
    ============================================
@@ -108,6 +114,14 @@ a:hover{
 	
 	.horizontal li{
 		width: 100%;
+	}
+
+	nav ul{
+	    padding: 0;
+	}
+
+	nav li{
+	    padding: 0;
 	}
 }
 	

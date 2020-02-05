@@ -98,19 +98,24 @@ object {
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
-  .artifact {
-    width:80%;
-  }
-  .reflection {
+  .artifact, .reflection {
     width:100%;
+    margin: 0;
+  }
+  section.right {
+  	width: 100%;
   }
 }
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   .artifact, .reflection {
     width:100%;
+    margin: 0;
   }
   .presentation{
       min-height: 200px;
+  }
+  section.right {
+  	width: 100%;
   }
 }

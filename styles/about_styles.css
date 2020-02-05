@@ -34,14 +34,18 @@ img{
 	border: 10px solid #45A29E;
 }
 
-
 /* ============================================
 	Mobile Devices: 0 - 500 pixels
    ============================================
 */
 @media only screen and (max-width:500px){
 	#left, #mid, #right{
+	    margin-left: 0;
 		width:100%;
 		text-align: center;
 	}
+
+	#mid, #right{
+	    margin-top: 0;
+    }
 }
